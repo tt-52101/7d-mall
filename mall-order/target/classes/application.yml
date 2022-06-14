@@ -1,9 +1,0 @@
-spring:
-  profiles:
-    active: dev
-hystrix:
-  command:
-    default:
-      execution:
-        timeout:
-          enabled=false: 30000
