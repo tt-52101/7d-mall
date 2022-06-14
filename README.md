@@ -1,26 +1,14 @@
-# mall-swarm
+# 7d-mall
 
-<p>
-  <a href="#公众号"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-macrozheng-blue.svg" alt="公众号"></a>
-  <a href="#公众号"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E4%BA%A4%E6%B5%81-%E5%BE%AE%E4%BF%A1%E7%BE%A4-2BA245.svg" alt="交流"></a>
-  <a href="https://github.com/macrozheng/mall-learning"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B-mall--learning-green.svg" alt="学习教程"></a>
-  <a href="https://github.com/macrozheng/mall"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%90%8E%E5%8F%B0%E9%A1%B9%E7%9B%AE-mall-blue.svg" alt="后台项目"></a>
-  <a href="https://github.com/macrozheng/mall-admin-web"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%89%8D%E7%AB%AF%E9%A1%B9%E7%9B%AE-mall--admin--web-green.svg" alt="前端项目"></a>
-  <a href="https://gitee.com/macrozheng/mall-swarm"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E7%A0%81%E4%BA%91-%E9%A1%B9%E7%9B%AE%E5%9C%B0%E5%9D%80-orange.svg" alt="码云"></a>
-</p>
+背景说明
+极客时间「 [高楼的性能工程实战课](https://time.geekbang.org/column/intro/100074001?tab=intro) 」专栏项目
 
-## 友情提示
+[全链路压测实战 30 讲](https://time.geekbang.org/column/intro/100093001?tab=catalog)
 
-> 1. **快速体验项目**：[在线访问地址](https://www.macrozheng.com/admin/index.html) 。
-> 2. **全套学习教程**：[《mall学习教程》](https://www.macrozheng.com) 。
-> 3. **Spring Cloud全套教程**：[《SpringCloud学习教程》](https://github.com/macrozheng/springcloud-learning) 。
-> 4. **专属学习路线**：学习不走弯路，整理了套非常不错的[《mall专属学习路线》](#公众号) 。
-> 5. **项目交流**：想要加群交流项目的朋友，可以加入[mall项目交流群](#公众号) 。
+课程地址：https://time.geekbang.org/column/intro/100074001?tab=intro
 
-## 项目介绍
-
-`mall-swarm`是一套微服务商城系统，采用了 Spring Cloud Hoxton & Alibaba、Spring Boot 2.3、Oauth2、MyBatis、Elasticsearch、Docker、Kubernetes等核心技术，同时提供了基于Vue的管理后台方便快速搭建系统。`mall-swarm`在电商业务的基础集成了注册中心、配置中心、监控中心、网关等系统功能。文档齐全，附带全套Spring Cloud教程。 
-
+项目介绍
+7d-mall-microservice 是一套微服务电商，其是在开源电商项目 mall-swarm 上进行了改造，采用了 Spring Cloud Hoxton & Alibaba、Spring Boot 2.3、Oauth2、MyBatis、Docker、k8s、Elasticsearch 等核心技术。 7d-mall-microservice在电商业务的基础集成了注册中心、配置中心、监控中心、网关等系统功能。。
 ## 系统架构图
 
 ![系统架构图](http://img.macrozheng.com/mall/project/mall_micro_service_arch.jpg)
@@ -49,13 +37,7 @@ mall
 
 ## 项目文档
 
-- 项目文档`mall`系列教程：[https://www.macrozheng.com](https://www.macrozheng.com)
-- 配套`Spring Cloud`系列教程：[https://github.com/macrozheng/springcloud-learning](https://github.com/macrozheng/springcloud-learning)
-
 ## 项目演示
-
-- 后台管理系统： [https://www.macrozheng.com/admin/index.html](https://www.macrozheng.com/admin/index.html)  
-- 移动端商城系统：[https://www.macrozheng.com/app/mainpage.html](https://www.macrozheng.com/app/mainpage.html)
 
 ## 技术选型
 
@@ -117,26 +99,7 @@ mall
 
 ### 搭建步骤
 
-> Windows环境部署
-
-- Windows环境搭建请参考：[mall-swarm在Windows环境下的部署](https://www.macrozheng.com/mall/deploy/mall_swarm_deploy_windows.html);
-- `mall-admin-web`项目的安装及部署请参考：[mall前端项目的安装与部署](https://www.macrozheng.com/mall/deploy/mall_deploy_web.html);
-- `ELK`日志收集系统的搭建请参考：[SpringBoot应用整合ELK实现日志收集](https://www.macrozheng.com/mall/reference/mall_tiny_elk.html);
-- 使用MinIO存储文件请参考：[前后端分离项目，如何优雅实现文件存储](https://www.macrozheng.com/mall/technology/minio_use.html);
-- 读写分离解决方案请参考：[你还在代码里做读写分离么，试试这个中间件吧](https://www.macrozheng.com/project/gaea.html);
-- `分布式事务`解决方案请参考：[使用Seata彻底解决Spring Cloud中的分布式事务问题！](https://www.macrozheng.com/cloud/seata.html) 。
-
-> Docker环境部署
-
-- 使用虚拟机安装CentOS7.6请参考：[虚拟机安装及使用Linux，看这一篇就够了](https://www.macrozheng.com/tool/linux_install.html);
-- Docker环境的安装请参考：[开发者必备Docker命令](https://www.macrozheng.com/mall/reference/linux_command.html);
-- 本项目Docker镜像构建请参考：[使用Maven插件为SpringBoot应用构建Docker镜像](https://www.macrozheng.com/mall/reference/docker_maven.html);
-- 本项目在Docker容器下的部署请参考：[mall-swarm在Linux环境下的部署（基于Docker容器）](https://www.macrozheng.com/mall/deploy/mall_swarm_deploy_windows.html);
-- 本项目使用Jenkins自动化部署请参考：[mall-swarm使用Jenkins实现自动化部署](https://www.macrozheng.com/mall/deploy/mall_swarm_deploy_jenkins.html) 。
-
-> Kubernetes环境部署
-
-- 本项目使用Kubernetes部署请参考：[mall-swarm微服务项目在K8S下的实践！](https://www.macrozheng.com/mall/deploy/mall_swarm_deploy_k8s.html)
+[系统是怎么搭建](https://time.geekbang.org/column/article/378983)
 
 ## 运行效果展示
 
@@ -152,46 +115,11 @@ mall
 
 ![](./img/img-jvm.png)
 
-- API文档信息，访问地址：http://192.168.3.101:8201
-
-![](http://img.macrozheng.com/mall/project/mall_swarm_run_05.png)
-
-- 日志收集系统信息，访问地址：http://192.168.3.101:5601
-
-![](http://img.macrozheng.com/mall/project/mall_swarm_run_06.png)
-
-- 可视化容器管理，访问地址：http://192.168.3.101:9000
-
-![](http://img.macrozheng.com/mall/project/mall_swarm_run_07.png)
-
-![](http://img.macrozheng.com/mall/project/mall_swarm_run_08.png)
-
-
+- API文档信息，访问地址：http://192.168.3.101:8201/doc.hmtl
+![img.png](img/img.png)
 
 ## 公众号
 
 电商项目全套学习教程连载中，关注公众号「**7DGroup**」第一时间获取。
 
 加微信群交流，公众号后台回复「**性能工程**」即可。
-
-![公众号图片](https://img-blog.csdnimg.cn/20190304100509555.jpg)
-
-## 许可证
-
-[Apache License 2.0](https://gitee.com/perfmance/mall-swarm-new/raw/master/LICENSE)
-
-Copyright (c) 2020-2022 7DGroup
-
-----
-git status
-
-git add .
-或
-git add xxx
-
-git commit -m "此次提交代码的备注"
-
-4、git pull <远程主机名> <远程分支名>  取回远程主机某个分支的更新，再与本地的指定分支合并
-5、git push <远程主机名> <远程分支名>  把当前提交到git本地仓库的代码推送到远程主机的某个远程分之上
-
-https://github.com/alibaba/spring-cloud-alibaba/wiki/Sentinel
